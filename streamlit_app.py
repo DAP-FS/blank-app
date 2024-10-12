@@ -11,7 +11,7 @@ st.title('Skills Based - Workshop on Plotly Visualization in Streamlit')
 
 # Author information
 st.markdown("<h5 style='color: teal;'>Created by:</h5>", unsafe_allow_html=True)
-st.markdown("<h5 style='color: blue;'>Ashwini Mathur and Ritesh Nune</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='color: white;'>Ashwini Mathur and Ritesh Nune</h5>", unsafe_allow_html=True)
 
 # --- Task 1: Line Chart ---
 st.subheader("Task 1: Line Chart")
