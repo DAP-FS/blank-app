@@ -32,8 +32,11 @@ st.markdown(
 st.markdown("<h5 style='color: teal;'>Created by:</h6>", unsafe_allow_html=True)
 st.markdown("<p style='color: white;'>1. Ashwini M, 2. Paras n, 3. Evlin p and 4. Ritesh n</p>", unsafe_allow_html=True)
 
-"""#### Load the very simple dataset from seaborn library"""
-
+st.markdown(
+    """
+    Lets start the task ..
+    """
+)
 
 # Load the tips dataset from Seaborn
 tips = sns.load_dataset('tips')  # Loading the dataset
