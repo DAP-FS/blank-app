@@ -30,7 +30,7 @@ st.markdown(
 
 # Author information
 st.markdown("<h5 style='color: teal;'>Created by:</h6>", unsafe_allow_html=True)
-st.markdown("<h5 style='color: white;'>Ashwini M, Paras N, Evlin P and Ritesh N</h6>", unsafe_allow_html=True)
+st.markdown("<p style='color: white;'>1. Ashwini M, 2. Paras n, 3. Evlin p and 4. Ritesh n</p>", unsafe_allow_html=True)
 
 """#### Load the very simple dataset from seaborn library"""
 
