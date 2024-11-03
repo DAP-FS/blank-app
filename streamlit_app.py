@@ -47,6 +47,7 @@ st.subheader("Task 1: Bar Chart")
 #Visualizations using Plotly
 fig1 = px.bar(tips, x="day", y="tip")
 fig1.show()
+st.plotly_chart(fig1)
 
 # --- Task 2: Bar Chart ---
 st.subheader("Task 2: Bar Chart")
@@ -58,12 +59,14 @@ fig2 = px.bar(
     template='plotly_white',  # Clean white background
 )
 fig2.show()
+st.plotly_chart(fig2)
 
 # --- Task 3: violin Chart ---
 st.subheader("Task 3: violin Chart")
 # Violin Plot: Total Bill Distribution by Day and Time
 fig3 = px.violin(tips, x='sex', y='tip', color='time', title='Violin Plot: Total Bill by Day and Time', box=True, points="all")
 fig3.show()
+st.plotly_chart(fig3)
 
 # --- Task 4: Scatter Chart ---
 st.subheader("Task 4: Scatter Chart")
@@ -76,6 +79,7 @@ fig4 = px.scatter(
     size='size'  # The size of points based on the size of the group
 )
 fig4.show()
+st.plotly_chart(fig4)
 
 # --- Task 5: Box Chart ---
 st.subheader("Task 5: Box Chart")
@@ -87,6 +91,7 @@ fig5 = px.box(
     template='ggplot2',  # Classic theme for a beautiful look
 )
 fig5.show()
+st.plotly_chart(fig5)
 
 # --- Task 6: Histogram Chart ---
 st.subheader("Task 5: Histogram Chart")
@@ -98,3 +103,4 @@ fig6 = px.histogram(
     template='plotly_white',  # Clean and bright look
 )
 fig6.show()
+st.plotly_chart(fig6)
